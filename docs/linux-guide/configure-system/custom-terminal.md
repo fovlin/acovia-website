@@ -73,13 +73,8 @@ export PS1='\[\e[1;32m\]\u@\h\[\e[0m\]:\[\e[1;34m\]\w\[\e[0m\]\$ '
 export PS1='\[\e[1;32m\]<\h>\[\e[0m\]-\[\e[1;32m\]<\u>\[\e[0m\]-\[\e[1;34m\]<\w>\[\e[0m\]\n> '
 ```
 
-将得到以下效果：
-![](../pictures/terminal-1.png)
-
 或是得到 Kali 的终端效果：
 
 ```bash
 export PS1='[\e[1;32m\](\u\[\e[1;33m\]@\h\[\e[1;32m\])\[\e[0m\]-\[\e[1;34m\]<\w>\[\e[0m\]\n└<'
 ```
-将得到以下效果：
-![](../pictures/terminal-2.png)
